@@ -125,7 +125,7 @@ $(document).ready( function(){
 },
         error: (data) => { // in case of error response
 
-            console.log("some error occured");
+            alert("some error occured");
 
         },
 
@@ -203,7 +203,7 @@ let getMoviebyID = (movieID) => {
 },
         error: (data) => { // in case of error response
 
-            console.log("some error occured");
+            alert("some error occured");
 
         },
 
